@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rebeccapurple;
+}
+
+nav a {
+    margin: 10px;
+    color: brown;
+    text-decoration: none;
+}
+
+h1 {
+    color: brown;
+    margin: 20px 0px;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+fieldset * {
+
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+fieldset> :first-child {
+    background-color: blueviolet;
+}
+
+.fist-field {
+    background-color: rgb(83, 51, 112);
+}
+
+.field-2 {
+    margin-top: 5px;
+    background-color: rgb(119, 75, 160);
+
+}
+
+.field-3 {
+    margin-top: 5px;
+    background-color: rgb(175, 122, 225);
+
+}

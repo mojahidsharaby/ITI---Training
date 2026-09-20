@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pizza Task Colored - Day 5 | Mohamed Alsharaby</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <a href="#">Main</a>
+            <a href="#">Make an Order</a>
+            <a href="#">Contact Us</a>
+        </nav>
+
+        <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+
+        <p>Our 12" wood-fired pizza are available for delivery, build your custom pizza and we'll deliver it within an
+            hour.</p>
+
+        <section class="info">
+            <form action="">
+
+                <fieldset>
+                    <legend>Contact me</legend>
+
+                    <label for="name">name: </label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                    <br>
+                    <br>
+                    <label for="email">email: </label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                    <br>
+                    <br>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter your Phone" required>
+                    <br>
+                    <br>
+
+
+
+
+                    <label for="message">message:</label>
+
+                    <textarea id="message" name="message" placeholder="Write your Message" required></textarea>
+                    <br>
+
+                    <br>
+
+
+
+
+
+
+                </fieldset>
+
+            </form>
+        </section>
+
+        <h2>Design Your Dream Pizza:</h2>
+
+
+
+        <!-- Classic White Multigrain Choose-stuffed crust Gluten-free -->
+        <section class="Pizza-specs">
+            <fieldset>
+                <legend>Pizza specs</legend>
+
+                <fieldset class="fist-field">
+                    <legend>Crust (Choose one):</legend>
+
+                    <!-- first pick order -->
+
+                    <!-- i make name "crust" in all radio to make one option for user -->
+                    <ul>
+                        <li>
+                            <input type="radio" name="crust" id="white">
+                            <label for="white">classic white</label>
+                        </li>
+
+                        <li>
+                            <input type="radio" name="crust" id="multigrain">
+                            <label for="multigrain">multigrain</label>
+                        </li>
+
+                        <li>
+                            <input type="radio" name="crust" id="stuffed">
+                            <label for="stuffed">cheese-stuffed crust</label>
+                        </li>
+
+                        <li>
+                            <input type="radio" name="crust" id="gluten">
+                            <label for="gluten">gluten-free</label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset class="field-2">
+                    <legend>Toppings(Choose as many as you want) :</legend>
+                    <!-- i will make type "checkbox" to allow many slecte for user -->
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="red-sauce">
+                            <label for="red-sauce">Red Sauce</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="white-sauce">
+                            <label for="white-sauce">White Sauce</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="mozzarella">
+                            <label for="mozzarella">Mozzarella Cheese</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="pepperoni-1">
+                            <label for="pepperoni-1">Pepperoni</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="pepperoni-2">
+                            <label for="pepperoni-2">Pepperoni</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="pepperoni-3">
+                            <label for="pepperoni-3">Pepperoni</label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset class="field-3">
+
+                    <legend>Number</legend>
+
+                    <label for="num-pizza">How many ypu want :</label>
+                    <input type="tel" name="num-pizza" id="num-pizza" placeholder="Enter your amaunt" required>
+
+
+                </fieldset>
+
+                <button type="submit">bring my pizza !</button>
+                <button type="reset">reset</button>
+
+            </fieldset>
+
+
+        </section>
+
+    </main>
+</body>
+
+</html>
