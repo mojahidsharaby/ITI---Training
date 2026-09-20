@@ -1,0 +1,100 @@
+My Portfolio Page Project
+========================================
+هنعمل صفحة HTML واحدة فقط (index.html) باستخدام HTML 
+
+Rules:
+- استخدم HTML فقط (ممنوع CSS و JavaScript)
+- Semantic HTML قدر الإمكان
+- كود منظم ومرتب مع Indentation صح من غير أي مسافات زياده
+- Comments بسيطة توضح كل قسم
+- كل صورة لازم يكون فيها alt
+- كل input في الفورم لازم يكون ليه label مربوط بيه
+
+1) Head
+- title
+- meta charset
+- meta viewport
+- meta description
+- favicon (اختياري)
+
+2) Header + Navigation
+- Header فيه شعار (اسم كنص) و Navigation
+- Nav فيه روابط داخلية بالـ anchor links تودي لأقسام الصفحة (زي #about، #skills، #contact) ممكن تتربط بـ ID زي ما وريتكم قبل كدا
+
+3) قسم Hero / About
+- h1 لعنوان رئيسي
+- paragraph فيه نبذة بسيطة عنك
+- صورة باستخدام img مع alt
+
+4) قسم Skills
+- استخدم unordered list لعرض المهارات
+- استخدم ordered list لعرض خطوات رحلتك في تعلم التراك (مثلا: HTML -> CSS -> JS)
+- ضيف نص فيه استخدام لـ strong و em و mark
+
+5) جدول (My Courses)
+- table فيه: caption + thead + tbody + tfoot
+- الأعمدة: اسم الكورس - المدة - الحالة
+- استخدم rowspan أو colspan في مكان واحد على الأقل
+
+6) قسم Gallery مصغر
+- 3 صور باستخدام figure و figcaption
+- كل الصور لازم يكون فيها alt واضح
+
+7) قسم Contact Form
+- form فيها:
+  - input (الاسم)
+  - email input
+  - input (رقم هاتف)
+  - input (تاريخ الميلاد)
+  - textarea (الرسالة)
+  - select فيه اختيارات (مثلا: الموضوع)
+  - radio buttons (مثلا: طريقة التواصل المفضلة - Email / Phone)
+  - checkbox واحد على الأقل (مثلا: الموافقة على الشروط)
+  - submit button
+  - reset button
+- كل input لازم يكون مربوط بـ label
+- استخدم على الأقل: required و placeholder على input واحد أو أكتر
+
+8) قسم FAQ بسيط
+- استخدم details و summary لسؤالين أو ثلاثة
+
+9) Footer
+- استخدم address لبيانات التواصل (Email أو مكان)
+- سطر فيه حقوق النشر باستخدام &copy;
+- روابط سوشيال ميديا بسيطة (a tags)
+
+========================================
+عناصر HTML المطلوب استخدامها في الصفحة كلها
+
+Structure:
+html, head, body, header, nav, main, section, footer
+
+Headings:
+h1, h2 (على الأقل)
+
+Text:
+p, span, strong, em, mark, br, hr
+
+Lists:
+ul, ol, li
+
+Links:
+a (روابط داخلية بالصفحة + رابط خارجي واحد بـ target)
+
+Images:
+img (مع alt)
+
+Media (اختياري):
+audio أو video بسيط لو حابب تضيف
+
+Tables:
+table, caption, thead, tbody, tfoot, tr, th, td, rowspan أو colspan
+
+Forms:
+form, label, input (text, email, tel, date, radio, checkbox), textarea, select, option, button
+
+Other:
+details, summary, figure, figcaption, address
+
+Entities:
+&copy;, &nbsp; (استخدمهم في مكان مناسب)
