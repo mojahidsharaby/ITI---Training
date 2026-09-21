@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+    --bg-main: #d3d0d0;
+}
+
+body {
+    background-color: #f5f5f5;
+
+}
+
+header * {
+    text-align: center;
+
+}
+
+section {
+    margin: 20px 10px;
+}
+
+ol {
+    list-style: none;
+}
+
+ol li a {
+    text-decoration: none;
+}
+
+div li {
+
+    display: inline-block;
+    margin: 0px 10px;
+
+}
+
+.head-name h1 {
+    color: brown !important;
+    background-color: var(--bg-main);
+
+}
+
+
+.job-title {
+    margin: 15px 0px;
+}
+
+#img-d-none {
+
+    display: none;
+
+}
+
+.Profile-img {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    background-image: url(./img/mojahid-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: not-allowed;
+}
+
+#about {
+    padding: 20px;
+}
+
+
+#about h2 {
+    text-align: center;
+    background-color: var(--primary-color);
+    margin: 20px 0;
+}
+
+#about p {
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+
+/* skills */
+
+
+#skills {
+    background-color: rgb(241, 166, 113);
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    cursor: grab;
+    height: 40vh;
+    max-width: 150em;
+    overflow: hidden;
+}
+
+#skills li {
+    list-style: none;
+    color: #3498db;
+    font-size: 20px;
+}
+
+
+select[name="ref"] {
+    margin-left: 5px;
+
+
+}
+
+button {
+    width: 50px;
+    margin: 10px 10px;
+}
+
+button[type="submit"] {
+
+    color: var(--secondary-color);
+
+}
+
+button[type="reset"] {
+
+    color: red;
+}
+
+#contact {
+    cursor: help;
+    padding: 5px 5px;
+    width: 40%;
+    height: auto;
+
+}
+
+#contact label,
+textarea,
+button,
+select,
+input {
+    margin-left: 5px;
+}
+
+
+#myFooter {
+    border: 2px solid rgb(248, 246, 246);
+    background-color: #626262;
+    color: #d3d0d0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+a img {
+    width: 50px;
+    margin: 10px 20px;
+    padding: 5px;
+}
