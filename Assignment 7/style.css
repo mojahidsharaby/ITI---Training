@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* root  */
+:root {
+    --primary-color: rgb(52, 152, 219);
+    --secondary-color: rgb(232, 240, 247);
+    --text-color: rgb(95, 107, 118);
+    --main-color: rgb(199, 231, 251);
+
+}
+
+body {
+    margin: 0;
+    background-color: var(--main-color);
+    font-family: "Nunito Sans", sans-serif;
+
+
+}
+/* the main card */
+#card {
+    margin: 100px auto;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    
+    /* box shadow -> X | Y | blur radius | spread radius | color */
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.12);
+
+
+}
+/* img and div-parent */
+.card-img,
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.card-img {
+    border: 3px solid #e2ebf8;
+    margin: auto;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.12);
+}
+/* text card */
+.card-text h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+
+.card-text h4 {
+    margin: 15px 0;
+    color: rgb(12, 181, 253);
+}
+
+.card-text p {
+    margin: 15px 0;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(52, 152, 219);
+    border: 1px solid rgb(52, 152, 219);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+button {
+    cursor: pointer;
+
+}
+
+button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgb(28, 86, 143);
+    border: rgb(28, 86, 143);
+}
+/* end of main_card section */
