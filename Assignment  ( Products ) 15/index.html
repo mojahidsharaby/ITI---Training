@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Style--Bootstarp -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title> Assignment Products 15 JS | Mohamed AlSharaby</title>
+    <!-- Mian Style -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Media -->
+    <link rel="stylesheet" href="./css/media.css">
+    <title> Assignment Products 15 JS | Mohamed AlSharaby</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Products</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- content -->
+    <main>
+
+        <section class="container py-5">
+
+            <!-- page title -->
+            <div class="text-center mb-5">
+                <h1>Our Products</h1>
+                <p>Explore our products and find what you need</p>
+            </div>
+
+
+            <!-- search -->
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-8">
+
+                    <input type="text" id="searchInput" class="form-control" placeholder="Search for a product...">
+
+                </div>
+            </div>
+
+
+            <!-- categories -->
+            <div class="d-flex justify-content-center gap-2 flex-wrap mb-5">
+
+                <button class="btn btn-primary category-btn">
+                    All
+                </button>
+
+                <button class="btn btn-outline-primary category-btn">
+                    beauty
+                </button>
+
+                <button class="btn btn-outline-primary category-btn">
+                    fragrances
+                </button>
+
+                <button class="btn btn-outline-primary category-btn">
+                    furniture
+                </button>
+
+                <button class="btn btn-outline-primary category-btn">
+                    groceries
+                </button>
+
+            </div>
+
+
+            <!-- Products -->
+            <div class="row g-4" id="productsContainer">
+
+
+            </div>
+
+        </section>
+
+    </main>
+    <!-- Boot-strap JS -->
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <!-- my JS -->
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>
